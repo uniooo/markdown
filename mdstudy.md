@@ -6,6 +6,7 @@ Markdown是一种轻量级标记语言，就跟HTML很像，但是没有HTML功�
 学习Markdown的时候建议找一个Markdown的编辑阅读器。可以实时看到Markdown写出来的效果。一些挺不错的推荐列在文末Links里。
 
 这篇文章就是使用Markdown写出来的。(本文使用[作业部落][3]的编辑器编辑)
+本文的源码可以从https://github.com/uniooo/markdown 获得
 
 ---
 
