@@ -48,11 +48,11 @@ network:
     HOSTNAME=master.puppet
     
 **//MARK 此处添加规则貌似没有成功，故而后来采取关闭防火墙，先mark，待有空再研究一下防火墙**
-添加防火墙规则，允许任何人连接TCP的8140端口：
+### 2、添加防火墙规则，允许任何人连接TCP的8140端口：
 
     iptables -A INPUT -p tcp -m state --state NEW --dport 8140 -j ACCEPT
 
-修改puppet.conf:
+### 3、修改puppet.conf:
 
     vi /etc/puppet/puppet.conf
     
@@ -60,7 +60,7 @@ network:
 
     certname = master.puppet
     
-开启puppet master:
+### 4、开启puppet master:
 
     puppet master --verbose --no-daemonize
     
